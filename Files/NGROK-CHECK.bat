@@ -12,7 +12,7 @@ echo Pass: Admin1234
 curl -O https://raw.githubusercontent.com/MMD1V1/Windows2019RDP-US/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/MMD1V1/Windows2019RDP-US/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\K-Lite_Codec_Pack_1690_Full.exe" https://files3.codecguide.com/K-Lite_Codec_Pack_1690_Full.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\mkvtoolnix-64-bit-66.0.0-setup.exe" https://pc-apps3.jga143x.workers.dev/0:/mkvtoolnix-64-bit-66.0.0-setup.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\mkvtoolnix-64-bit-setup.exe" https://pc-apps3.jga143x.workers.dev/0:/mkvtoolnix-64-bit-setup.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\qbittorrent_4.4.2_x64_setup.exe" https://pc-apps3.jga143x.workers.dev/0:/qbittorrent_4.4.2_x64_setup.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\winrar-x64-611.exe" https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-611.exe > out.txt 2>&1
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1

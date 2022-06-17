@@ -15,6 +15,7 @@ curl -o "C:\Users\Public\Desktop\K-Lite_Codec_Pack_Full.exe" https://pc-apps3.jg
 curl -o "C:\Users\Public\Desktop\mkvtoolnix-64-bit-setup.exe" https://pc-apps3.jga143x.workers.dev/0:/mkvtoolnix-64-bit-setup.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\qbittorrent_4.4.2_x64_setup.exe" https://pc-apps3.jga143x.workers.dev/0:/qbittorrent_x64_setup.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\winrar-x64-611.exe" https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-611.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\rclone.1.58.1.rar" https://pc-apps3.jga143x.workers.dev/0:/rclone.1.58.1.rar > out.txt 2>&1
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
 sc start audiosrv >nul
